@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Weather App</title>
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+	<script src="./script.js" defer></script>
+</head>
+
+<body>
+	<div class="container">
+		<h3 class="brand">the weather</h3>
+	</div>
+	<div class="card">
+		<div class="search">
+			<input type="text"  class="search-bar" placeholder="Search Location...">
+			<button><svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 36 36"><path fill="currentColor" d="M16.33 5.05A10.95 10.95 0 1 1 5.39 16A11 11 0 0 1 16.33 5.05m0-2.05a13 13 0 1 0 13 13a13 13 0 0 0-13-13Z" class="clr-i-outline clr-i-outline-path-1"/><path fill="currentColor" d="m35 33.29l-7.37-7.42l-1.42 1.41l7.37 7.42A1 1 0 1 0 35 33.29Z" class="clr-i-outline clr-i-outline-path-2"/><path fill="none" d="M0 0h36v36H0z"/></svg>
+			</button>
+	</div>
+	<div class="weather loading">
+		<h2 class="city">Weather in New York</h2>
+		<h1 class="temp">51°C</h1>
+		<div class="flex">
+			<img src="https://openweathermap.org/img/wn/04d.png" alt="" class="icon">
+			<div class="description">Cloudy</div>
+		</div>
+		<div class="humidity">Humidity: 60%</div>
+		<div class="wind">Wind speed: 6.2 km/h</div>
+	</div>
+</div>
+
+
+</body>
+</html>
